@@ -4,15 +4,15 @@
 
   - 直接安装
 
-  ```sh
-pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+    ```sh
+    pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
-python ocr_server.py
-  ```
+    python ocr_server.py
+    ```
 
-- 通过 docker 部署
+  - 通过 docker 部署
 
-```
-docker run -p 9300:9300 -d linyuan213/nas-tools-ocr:latest
-```
+    ```
+    docker run -p 9300:9300 -d linyuan213/nas-tools-ocr:latest
+    ```
 
